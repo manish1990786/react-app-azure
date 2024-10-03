@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardMedia, Button, Typography, TextField, Grid, Box } from '@mui/material';
-import './BlogList.css';
+import '../BlogList.css';
 
 const BlogList = ({ blogs, deleteBlog, addBlog }) => {
   const [newBlog, setNewBlog] = useState({ title: '', content: '', image: 'https://picsum.photos/200/300?random=3' });

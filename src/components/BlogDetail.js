@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Card, CardContent, CardMedia, Typography, Box } from '@mui/material';
-import './BlogDetail.css';
+import '../BlogDetail.css';
 
 const BlogDetail = ({ blogs }) => {
   const { id } = useParams();
