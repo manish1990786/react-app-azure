@@ -1,10 +1,14 @@
 .navbar {
+    background-color: #007bff;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff;
-    padding: 10px 20px;
     color: white;
+  }
+  
+  .navbar h1 {
+    font-size: 1.8rem;
   }
   
   .navbar ul {
@@ -12,6 +16,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
   }
   
   .navbar ul li {
@@ -21,6 +26,7 @@
   .navbar ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
   }
   
   .navbar ul li a:hover {
